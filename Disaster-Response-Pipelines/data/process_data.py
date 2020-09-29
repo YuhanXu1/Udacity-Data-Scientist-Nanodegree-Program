@@ -37,6 +37,7 @@ def clean_data(df):
     df.drop(["categories"], axis=1, inplace=True)
     df = pd.concat([df, categories], axis=1)
     
+    df = df[df.related != 2]
     df.drop_duplicates(keep="first", inplace=True)
     df.reset_index(drop=True, inplace=True)
     return df
@@ -50,7 +51,7 @@ def save_data(df, database_filename):
     database_filename: str. The file path to save the file
     '''
     engine = create_engine('sqlite:///' + database_filename)
-    df.to_sql("disasters", engine, index=False)
+    df.to_sql("disasters", engine, index=False, if_exists = 'replace')
  
 def main():
     if len(sys.argv) == 4:
