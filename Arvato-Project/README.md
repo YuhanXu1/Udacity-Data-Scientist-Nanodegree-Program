@@ -15,7 +15,7 @@ In this project, I analyzed demographics data for customers of a mail-order sale
 
 Then, I applied what I've learned on a third dataset with demographics information for targets of a marketing campaign for the company. I built a machine learning model to predict which individuals are most likely to respond to the campaign and become customers for the company.
 
-AUC (Area under the ROC Curve) is used to evaluate the performance of the model. The metric of the result is a Kaggle competition.
+AUC (Area under the ROC Curve) is used to evaluate the performance of the model. The metric of the result is a [Kaggle competition](https://www.kaggle.com/c/udacity-arvato-identify-customers/overview).
 
 ## File Descriptions
 There are 6 files associated with this project: 4 .csv data files and 2 .xlsx files including the descriptions about the features.
