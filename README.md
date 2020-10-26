@@ -11,3 +11,8 @@ This repository includes all the projects I did in Udacity Data Scientist Nanode
 ## [Recommendations with IBM](/Recommendations-with-IBM)
 - Analyzed the interactions that users have with articles on the IBM Watson Studio platform
 - Made recommendations about new articles using rank-based recommendations, user-based collaborative filtering, and SVD
+## [Customer Segmentation Report for Arvato Financial Services](/Arvato-Project)
+- Summarized the chracteristics of Arvato's core customer base by comparing the demographics of general population and its customers
+- Used PCA to find out the most important features and used k-means clustering to segment and compare the general population and its customers
+- Built a machine learning model to predict which individuals are most likely to respond to a marketing campaign and become customers
+- Wrote a post about the whole process and main findings on [Medium](https://yuhanxu.medium.com/customer-segmentation-report-for-arvato-financial-services-4ea4eae1f2c8)
